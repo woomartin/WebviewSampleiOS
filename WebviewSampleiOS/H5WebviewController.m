@@ -16,9 +16,8 @@
 @end
 
 
-//static NSString *const requestUrl = @"http://xch.xiaochanhu.cn/";
-//static NSString *const requestUrl = @"https://www.apple.com/";
-static NSString *const requestUrl = @"https://aios.soinluck.com/scene?sk=228b9b29-784f-4181-bbc9-28cd14f672f4&lzdid=0000-12212-122112-212121";
+//static NSString *const requestUrl = @"https://aios.soinluck.com/scene?sk=q842c2e079a1b32c8&lzdid=228b9b29-784f-4181-bbc9-28cd14f672f4";
+static NSString *const requestUrl = @"https://news.zephyrona.com/scene?sk=q851d2bccce9a8179&lzdid=88888888-8888-8888-8888-888888888888";
 
 @implementation H5WebviewController
 
