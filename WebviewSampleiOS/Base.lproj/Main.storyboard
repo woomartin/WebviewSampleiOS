@@ -24,7 +24,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Webview Page"/>
                                 <connections>
                                     <action selector="showPage:" destination="zOO-2g-IsU" eventType="touchUpInside" id="Ued-bz-OGY"/>
-                                    <segue destination="Ubq-Xd-igY" kind="show" id="Xl3-jD-Gmg"/>
+                                    <action selector="showWebview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xa-be-9oA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,37 +36,6 @@
                 <exit id="zOO-2g-IsU" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="58.778625954198468" y="13.380281690140846"/>
-        </scene>
-        <!--Webview Controller-->
-        <scene sceneID="MEz-Z3-R2T">
-            <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="Ubq-Xd-igY" customClass="H5WebviewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yKZ-EB-AWB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2C3-aN-5Cd">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="ATi-Nc-h0L"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="2C3-aN-5Cd" firstAttribute="leading" secondItem="ATi-Nc-h0L" secondAttribute="leading" id="3mf-FU-IDA"/>
-                            <constraint firstItem="ATi-Nc-h0L" firstAttribute="trailing" secondItem="2C3-aN-5Cd" secondAttribute="trailing" id="6k0-D4-yJU"/>
-                            <constraint firstItem="2C3-aN-5Cd" firstAttribute="top" secondItem="ATi-Nc-h0L" secondAttribute="top" id="tv2-Tz-bea"/>
-                            <constraint firstItem="ATi-Nc-h0L" firstAttribute="bottom" secondItem="2C3-aN-5Cd" secondAttribute="bottom" id="vqu-CR-ZXx"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="kKc-2m-w5I"/>
-                    <connections>
-                        <outlet property="webContentView" destination="2C3-aN-5Cd" id="Njs-Xd-kRr"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s7H-G0-PGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="831" y="13"/>
         </scene>
     </scenes>
     <resources>

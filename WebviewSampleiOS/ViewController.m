@@ -23,5 +23,10 @@
     
 
 }
+- (IBAction)showWebview:(id)sender {
+    H5WebviewController *webviewController = [[H5WebviewController alloc] init];
+    webviewController.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:webviewController animated:YES completion:nil];
+}
 
 @end

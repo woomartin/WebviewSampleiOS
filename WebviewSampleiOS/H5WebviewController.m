@@ -10,13 +10,11 @@
 
 
 @interface H5WebviewController () <WKNavigationDelegate, WKScriptMessageHandler>
-@property (weak, nonatomic) IBOutlet UIView *webContentView;
 @property (weak, nonatomic) WKWebView *webView;
 
 @end
 
 
-//static NSString *const requestUrl = @"https://aios.soinluck.com/scene?sk=q842c2e079a1b32c8&lzdid=228b9b29-784f-4181-bbc9-28cd14f672f4";
 static NSString *const requestUrl = @"https://news.zephyrona.com/scene?sk=q851d2bccce9a8179&lzdid=88888888-8888-8888-8888-888888888888";
 
 @implementation H5WebviewController
@@ -29,11 +27,11 @@ static NSString *const requestUrl = @"https://news.zephyrona.com/scene?sk=q851d2
 
     configuration.userContentController = controller;
     
-    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.webContentView.frame configuration:configuration];
+    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:configuration];
     self.webView = webView;
     self.webView.navigationDelegate = self;
     self.webView.allowsBackForwardNavigationGestures = YES;
-    [self.webContentView addSubview:self.webView];
+    [self.view addSubview:self.webView];
     
     NSURL *url = [[NSURL alloc] initWithString: requestUrl];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url
