@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A5A72462C85A1260090BA71 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ABD4A692C58DB6C0079DCB0 /* WebviewSampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewSampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD4A6C2C58DB6C0079DCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ABD4A6D2C58DB6C0079DCB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		6ABD4A602C58DB6C0079DCB0 = {
 			isa = PBXGroup;
 			children = (
+				6A5A72462C85A1260090BA71 /* README.md */,
 				6ABD4A6B2C58DB6C0079DCB0 /* WebviewSampleiOS */,
 				6ABD4A6A2C58DB6C0079DCB0 /* Products */,
 			);
