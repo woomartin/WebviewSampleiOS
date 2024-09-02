@@ -1,5 +1,5 @@
 # 1.拷贝文件
-只需拷贝H5WebviewController.h和H5WebviewController.m文件
+拷贝H5WebviewController.h和H5WebviewController.m文件，并修改H5WebviewController.m中的requestUrl参数。
 
 # 2.在UnityBridge.mm中添加桥接函数
 
